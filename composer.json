@@ -1,6 +1,9 @@
 {
     "name": "evo/hosted-payments",
     "version": "1.0.0",
+    "autoload": {
+        "files": ["src/MyLibrary/functions.php"]
+    },
     "require": {
         "php": ">=5.3.0"
     }
